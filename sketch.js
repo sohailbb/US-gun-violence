@@ -13,10 +13,10 @@ var count;
 function preload() {
 	for (var i = 1; i <= 12; i++){
 		if (i < 10) {
-  			table[i] = loadTable("csv/stage2.0"+i+".2017.csv","csv","header");
+  			table[i] = loadTable("CSV/stage2.0"+i+".2017.csv","csv","header");
 		}
   		else {
-  			table[i] = loadTable("csv/stage2."+i+".2017.csv","csv","header");
+  			table[i] = loadTable("CSV/stage2."+i+".2017.csv","csv","header");
   		}
   		switch (i) {
   			case 1:
